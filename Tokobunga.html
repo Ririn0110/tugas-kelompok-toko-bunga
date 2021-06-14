@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<title>Kelompok 5</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://cdn1-production-images-kly.akamaized.net/CqhviaTY9jK5pGX_I8yMcgjeEv4=/1280x720/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3178236/original/030143300_1594632336-desain-klasik-kontemporer-arsitag-foto-cover.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#Beranda" class="w3-button w3-block w3-black">Beranda</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#Tentang" class="w3-button w3-block w3-black">Tentang</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#Alamat" class="w3-button w3-block w3-black">Alamat</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Open from 6am to 5pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-red" style="font-size:90px">Flower<br>Shop</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">15 Adr street, 5015</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE FLOWER SHOP</span></h5>
+    <p>Happy Florist merupakan toko bunga online yang berpusat di Jakarta dan kami memiliki perwakilan di beberapa kota besar seperti Bandung, Jogja, Semarang, Surabaya, Medan, Bali sehingga kami mampu melayani pengiriman ke seluruh Indonesia. Kami selalu berkomitmen memberikan rangkaian bunga yang terbaik seperti bunga papan untuk duka cita, bunga papan pernikahan atau wedding, bunga papan ucapan selamat baik untuk individu maupun perusahaan yang sedang grand opening untuk mengucapkan congratulaions ditambah dengan bunga standing flowers maupun bunga meja / table flowers yang memikat serta profesional.</p>
+    <p>Selain itu kami menghadirkan rangkaian bunga tangan atau bunga hand buket/ hand bouquet untuk anda berikan kepada orang yang anda kasihi sebagai bentuk ungkapan perasaan terdalam anda untuk berbagai acara seperti valentine, romantisme, ungkapan kasih sayang, hari ibu maupun ungkapan lainnya. Dengan dukungan tim yang handal maka Happy Florist mampu menghadirkan pemesanan online yang mudah dan pengiriman yang cepat dan tepat waktu.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"The best online florist, cakes, hampers & gifts in Indonesia. Make someone you love smiles with our beautiful flowers.</i></p>
+      <p>Florist, Happy and Owner: Ririn Oktavianti</p>
+    </div>
+    <img src="https://cdn1-production-images-kly.akamaized.net/UBY1i0icPM96PORL3tlECdZxkiQ=/673x379/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3178266/original/020207600_1594633119-desain-klasik-kontemporer-arsitag-foto-1.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+    <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">Hand Bouquet</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">Bunga Pengantin</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5>First Kiss</h5>
+      <p class="w3-text-grey">Bunga mawar, astilbe, scabiosa, astilbe, wax flower</p><br>
+    
+      <h5>Glowing Brightly</h5>
+      <p class="w3-text-grey">Bunga mawar, baby rose, lysianthus, rice flower yang segar</p><br>
+    
+      <h5>Moonlight Drawn</h5>
+      <p class="w3-text-grey">bunga mawar, baby rose, daun silverdust</p><br>
+    
+      <h5>Lonely Melody</h5>
+      <p class="w3-text-grey">bunga mawar, lysianthus, caspea dan anyelir segar</p><br>
+    
+      <h5>Natural Scent</h5>
+      <p class="w3-text-grey">Bunga mawar peach, lysiantus putih, scabiosa, vibirnum inge hitam, daun eucalptus populus yang segar</p>
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Queens Beauty</h5>
+      <p class="w3-text-grey">Bunga peony dan mawar yang segar dibalut dengan pita yang cantik</p><br>
+    
+      <h5>Summer Breeze</h5>
+      <p class="w3-text-grey">bunga lilium, ping pong, chrysanthemum, hydrangea, snapdragon, dan amimmajus</p><br>
+    
+      <h5>Love Maze</h5>
+      <p class="w3-text-grey">1 tangkai mawar artificial di dalam balon transparan</p><br>
+    
+      <h5>Sparking Heart</h5>
+      <p class="w3-text-grey">bunga rose, gompi, solidago, caspea, dan lisianthus</p><br>
+    
+      <h5>Passionate Red</h5>
+      <p class="w3-text-grey">Bunga mawar merah segar, hypericum, gompie, lilium dan parvifolia, dirangkai dengan wrapping yang elegan</p>
+    </div>  
+    <img src="https://cdn1-production-images-kly.akamaized.net/WbirRi7l53IKGhMj1ffyBJUPE24=/1280x720/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3178268/original/044955200_1594633119-desain-klasik-kontemporer-arsitag-foto-3.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Alamat Kami</span></h5>
+    <p>15 Adr street, 5015.</p>
+    <img src="https://cdn1-production-images-kly.akamaized.net/ky2Lu8lKUPGndxMwhQZ1U3VkBhs=/1280x720/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3178269/original/058359400_1594633119-desain-klasik-kontemporer-arsitag-foto-4.jpg" class="w3-image" style="width:100%">
+    <p><span class="w3-tag">FYI!</span> Kami menyediakan koleksi yang lengkap untuk setiap kesempatan mulai dari Love & Romance, Congratulations, Baby Born, Get Well Soon, Wedding, hingga Sympathy.
+    Kami menawarkan layanan penuh, mulai dari pembuatan desain, instalasi, hingga pemeliharaan berlanjut. Tim kami telah merangkai bunga-bunga segar untuk kantor, hotel, toko retail, restoran, bar, dan bisnis lainnya. Di setiap pekerjaan kami, kami juga selalu memperhitungkan kesegaran, ketahanan, dan keseluruhan penampilan rangkaian.</p>
+    <p><strong>Reserve</strong> Melalui situs jaringan dan layanan pelanggan kami, Anda dapat memesan rangkaian bunga dengan mudah. Jika Anda ingin mengirimkan bunga di hari yang sama, harap melakukan pemesanan sebelum pukul 12.00 WIB pada hari Senin hingga Minggu.</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nama" required name="Nama"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="berapa tangkai" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="tanggal dan bulan" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="pesan atau ucapan spesial" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">kirim pesan </button></p>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
